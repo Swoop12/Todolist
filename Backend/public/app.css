@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: 'Avenir';
+    background-color: linen;
+}
+
+span {
+    font-weight: 500;
+}
+
+
+header {
+    margin: auto;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 72px;
+}
+
+input {
+    border-style: none;
+    width: 50%;
+    height: 60px;
+    font-size: 24px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #bdc3c7;
+}
+
+.list {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+.todoItem {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 16px;
+    list-style-type: none;
+}
+
+.todoItem:hover {
+    background-color: aliceblue;
+}
+
+.todoItem:hover span{
+    opacity: 1;
+}
+
+li .delete {
+    color: red;
+    opacity: 0;
+    float: right;
+    transition: all 0.3s;
+}
